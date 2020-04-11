@@ -19,7 +19,7 @@ Stage stage;
         stage = primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("POS v.0.0.1");
-        Scene scene = new Scene(root,650,625);
+        Scene scene = new Scene(root,750,575);
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();

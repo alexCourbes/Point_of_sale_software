@@ -1,4 +1,3 @@
-close-tab{
--fx-background-color: red;
-
+.body{
+    -fx-background-color: red;
 }

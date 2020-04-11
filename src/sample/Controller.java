@@ -25,12 +25,12 @@ public class Controller  {
     @FXML
     public void handleButtonAction(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("PopOut.fxml"));
-        Parent root1 = (Parent) fxmlLoader.load();
+        Parent root = (Parent) fxmlLoader.load();
         Stage stage = new Stage();
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.initStyle(StageStyle.DECORATED);
-        stage.setTitle("ABC");
-        stage.setScene(new Scene(root1));
+        stage.setTitle("New Item");
+        stage.setScene(new Scene(root));
         stage.show();
 
 
